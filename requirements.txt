@@ -3,5 +3,3 @@ pandas
 matplotlib
 numpy
 seaborn
-statsmodels
-scikit-learn
