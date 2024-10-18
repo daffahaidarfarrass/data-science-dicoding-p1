@@ -4,11 +4,6 @@ import numpy as np
 import seaborn as sns
 import streamlit as st
 import pandas as pd
-from statsmodels.tsa.arima.model import ARIMA
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, r2_score
-sns.set(style='dark')
 
 def daily_rent(df):
     daily_rent_df = df.resample(rule='D', on='dteday').agg({
