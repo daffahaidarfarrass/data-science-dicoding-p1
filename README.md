@@ -56,6 +56,12 @@ Proyek ini bertujuan untuk menganalisis pola penggunaan layanan penyewaan sepeda
 ---
 
 ## 🛠️ Tools dan Teknologi
+1. Python
+2. Streamlit
+3. Pandas
+4. Matplotlib
+5. Numpy
+seaborn
 
 - Python
 - Pandas
